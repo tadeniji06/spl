@@ -16,7 +16,14 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
 	title: "SPL - Luxury Concepts",
-	description: "SPL - Luxury Concepts",
+	icons: {
+		icon: "spl.png",
+	},
+	openGraph: {
+		title: "SPL - Luxury Concepts",
+		description: "SPL - Luxury Concepts",
+		siteName: "SPL - Luxury Concepts",
+	},
 };
 
 export default function RootLayout({
