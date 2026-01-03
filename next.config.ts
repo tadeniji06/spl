@@ -7,7 +7,8 @@ const nextConfig: NextConfig = {
 		ignoreBuildErrors: true,
 	},
 	images: {
-		unoptimized: true,
+		// unoptimized: true,
+		remotePatterns: [{ hostname: "cdn.sanity.io" }],
 	},
 };
 
