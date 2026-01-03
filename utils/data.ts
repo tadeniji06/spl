@@ -14,6 +14,7 @@ export const headerLinks: HeaderLink[] = [
 	{ title: "About", link: "/about" },
 	{ title: "Interior Designs", link: "/designs" },
 	{ title: "Properties", link: "/properties" },
+	{ title: "Electronics", link: "/electronics" },
 ];
 
 export const categories = [
