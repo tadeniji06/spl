@@ -159,7 +159,7 @@ const Header = () => {
 
             <Link
               target="_blank"
-              href="https://www.instagram.com/spl_designhaven?igsh=Z3V3cWR2ZTlsbGZh"
+              href="https://wa.me/2349033704954?text=Hi%2C%20I%20would%20like%20to%20get%20in%20touch"
             >
               <button className="cursor-pointer bg-black text-white rounded-lg shadow-md px-3 py-2 lg:px-5 lg:py-3 text-sm lg:text-base font-medium hover:bg-gray-800 transition-colors duration-200">
                 Get In Touch
