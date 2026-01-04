@@ -52,6 +52,17 @@ const OurServices = () => {
 				"Sustainability Consulting",
 			],
 		},
+		{
+			icon: "mdi:palette-outline",
+			title: "Electronics & Lighting Design",
+			desc: "Custom lighting and electronics solutions that enhance your space's ambiance and functionality.",
+			items: [
+				"Lighting Design",
+				"Smart Home Integration",
+				"Electronics Placement",
+				"Energy Efficiency Consulting",
+			],
+		}
 	];
 
 	return (

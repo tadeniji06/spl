@@ -1,4 +1,4 @@
-import { home } from "@/assets";
+import { n1 } from "@/assets";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -33,7 +33,7 @@ const BookConsultation = () => {
 				<div className='flex-1 flex justify-center md:justify-end'>
 					<div className='w-full max-w-md md:max-w-lg'>
 						<Image
-							src={home}
+							src={n1}
 							alt='Home'
 							width={500}
 							height={500}

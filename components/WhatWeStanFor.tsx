@@ -1,4 +1,4 @@
-import { home } from "@/assets";
+import { n1 } from "@/assets";
 import Image from "next/image";
 
 const WhatWeStanFor = () => {
@@ -7,7 +7,7 @@ const WhatWeStanFor = () => {
 			{/* Image */}
 			<div className='w-full md:w-1/2 h-64 md:h-[400px]'>
 				<Image
-					src={home}
+					src={n1}
 					alt='Home'
 					className='w-full h-full object-cover rounded-xl shadow-lg'
 					priority

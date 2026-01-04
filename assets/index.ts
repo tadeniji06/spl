@@ -21,10 +21,14 @@ import h2 from "./h2.jpg";
 import dh1 from "./dh1.jpg";
 import home from "./home.jpg";
 import prop from "./proph.jpg";
+import n1 from "./n1.jpg";
+import founder from "./founder.png";
 
 export {
 	logo,
 	about,
+	n1,
+	founder,
 	home,
 	h2,
 	dh1,
