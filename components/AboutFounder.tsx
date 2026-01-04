@@ -25,9 +25,9 @@ const AboutFounder = () => {
 
 						<blockquote className='border-l-4 border-light-gold pl-6 my-8'>
 							<p className='text-dark-brown/80 text-lg md:text-xl italic leading-relaxed'>
-								&ldquo;We believe that exceptional design transcends mere
-								aesthetics. It&apos;s about creating spaces that resonate with
-								the soul and elevate everyday living.&rdquo;
+								&ldquo;True luxury goes beyond appearance. It lies in how
+								spaces function, how properties serve their purpose, and how
+								technology supports everyday living.&rdquo;
 							</p>
 							<footer className='mt-4'>
 								<p className='text-dark-brown font-semibold'>
@@ -41,17 +41,21 @@ const AboutFounder = () => {
 
 						<div className='space-y-4 text-dark-brown/80 leading-relaxed'>
 							<p>
-								With over five years of experience in luxury interior design
-								and real estate, we&apos;ve cultivated a reputation for
-								creating extraordinary spaces that blend timeless elegance with
-								contemporary sophistication.
+								With over five years of experience across interior design, real
+								estate, and lifestyle electronics, SPL Luxury Concept has built
+								a reputation for delivering refined, functional, and
+								well-considered solutions.
 							</p>
 							<p>
-								Our portfolio spans exclusive residences, prestigious estates,
-								and iconic properties across the globe. Each project is a
-								testament to our unwavering commitment to excellence,
-								meticulous attention to detail, and passion for transforming
-								visions into reality.
+								Our work spans thoughtfully designed spaces, strategic property
+								solutions, and carefully selected electronics that enhance
+								comfort, efficiency, and modern living. Each project reflects
+								our commitment to quality, attention to detail, and the
+								seamless integration of design, property, and technology.
+							</p>
+							<p>
+								At SPL, we transform ideas into cohesive experiences, where
+								elegance meets functionality and every detail is intentional.
 							</p>
 						</div>
 					</motion.div>
