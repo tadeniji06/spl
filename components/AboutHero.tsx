@@ -6,10 +6,12 @@ const AboutHero = () => {
 					ABOUT SPL LUXURY CONCEPT
 				</h2>
 				<p className='text-gray-200 text-lg md:text-xl leading-relaxed mb-12'>
-					Our philosophy is simple: exceptional design should be both
-					timeless and innovative. We believe that every space tells a
-					story, and our role is to craft environments that resonate
-					with the soul while elevating everyday living.
+					At SPL Luxury Concept, we create intentional solutions
+					across real estate, interior design, and electronics that
+					enhance how people live and work. We combine refined
+					aesthetics, practical functionality, and reliable
+					performance to deliver spaces, properties, and technology
+					designed for everyday comfort, value, and lasting impact.
 				</p>
 
 				{/* Stats Section */}
