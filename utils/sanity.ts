@@ -86,3 +86,46 @@ export async function getProperties(): Promise<SanityProperty[]> {
 export async function getElectronics(): Promise<SanityElectronic[]> {
 	return client.fetch(electronicsQuery);
 }
+
+// Search electronics with filters
+export interface ElectronicsSearchParams {
+	search?: string;
+	minPrice?: number;
+	maxPrice?: number;
+}
+
+export async function searchElectronics(
+	params: ElectronicsSearchParams
+): Promise<SanityElectronic[]> {
+	const { search, minPrice, maxPrice } = params;
+
+	let query = `*[_type == "electronic"`;
+	const conditions: string[] = [];
+
+	if (search && search.trim()) {
+		conditions.push(`(title match "*${search}*" || description match "*${search}*")`);
+	}
+
+	if (minPrice !== undefined && minPrice > 0) {
+		conditions.push(`price >= ${minPrice}`);
+	}
+
+	if (maxPrice !== undefined && maxPrice > 0) {
+		conditions.push(`price <= ${maxPrice}`);
+	}
+
+	if (conditions.length > 0) {
+		query += ` && ${conditions.join(" && ")}`;
+	}
+
+	query += `]{
+		_id,
+		title,
+		mainImage,
+		extraImages,
+		description,
+		price
+	}`;
+
+	return client.fetch(query);
+}
